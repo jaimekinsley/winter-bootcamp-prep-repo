@@ -39,10 +39,20 @@ ul {
     margin: 0 auto;
     padding: 40px;
     color: orange;
+    transition: all .2s ease-in-out
 }
+
+
+
 #cool-square {
     background: red;
 }
 #uncool-square {
     background: blue;
+}
+
+.square:hover {
+    height: 600px;
+    background-color: coral!important;
+    cursor: pointer;
 }
